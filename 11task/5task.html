@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks App</title>
+    <style>
+        .modal-overlay_hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="createTaskForm">
+        <div class="create-task-block">
+            <input type="text" placeholder="Введите задачу">
+        </div>
+        <button type="submit">Создать задачу</button>
+    </form>
+
+    <div class="error-message-block"></div>
+
+    <div class="tasks-list">
+    </div>
+
+    <div class="modal-overlay modal-overlay_hidden">
+        <div class="modal-content">
+            <p>Вы уверены, что хотите удалить эту задачу?</p>
+            <button class="delete-modal-cancel-button">Отмена</button>
+            <button class="delete-modal-confirm-button">Подтвердить</button>
+        </div>
+    </div>
+  <script src="5task.js"></script>
+</body>
+</html>
+
