@@ -16,4 +16,4 @@ const student = {stack: ["HTML"], level: 1, improveLevel: function() {
 }
 
 student.improveLevel().improveLevel().improveLevel().improveLevel().improveLevel()
-console.log(student.stack); // ["HTML", "CSS", "JavaScript", "React", "NodeJS"]
+console.log(student.stack);
